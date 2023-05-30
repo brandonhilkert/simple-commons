@@ -75,6 +75,7 @@
     <string name="updating">S\'està actualitzant…</string>
     <string name="phone_storage">Emmagatzematge del telèfon</string>
     <string name="phone_storage_hidden">Emmagatzematge del telèfon (no visible per altres aplicacions)</string>
+    <string name="audio">Audio</string>
     <!-- Events -->
     <string name="birthday">Data de naixement</string>
     <string name="anniversary">Aniversari</string>
@@ -157,8 +158,15 @@
     <string name="no_contacts_permission">Es requereix permís d\'accés als contactes</string>
     <string name="no_camera_permissions">Es requereix permís d\'accés a la càmera</string>
     <string name="no_audio_permissions">Es requereix permís d\'accés a l\'àudio</string>
-    <string name="no_post_notifications_permissions">Cal permís per publicar notificacions</string>
     <string name="no_permission">Sense permís</string>
+    <string name="allow_notifications_reminders">Heu de permetre que l\'aplicació mostri notificacions, en cas contrari no podrà mostrar els recordatoris.</string>
+    <string name="allow_notifications_files">Heu de permetre que l\'aplicació mostri notificacions, en cas contrari no podrà mostrar la barra de progrés.</string>
+    <string name="allow_notifications_music_player">Heu de permetre que l\'aplicació mostri notificacions, en cas contrari no podrà reproduir cançons.</string>
+    <string name="allow_notifications_voice_recorder">Heu de permetre que l\'aplicació mostri notificacions, en cas contrari no podrà enregistrar àudio.</string>
+    <string name="allow_notifications_incoming_calls">Heu de permetre que l\'aplicació mostri notificacions, en cas contrari no podrà mostrar les trucades entrants.</string>
+    <string name="allow_notifications_incoming_messages">Heu de permetre que l\'aplicació mostri notificacions, en cas contrari no podrà mostrar els missatges entrants.</string>
+    <string name="grant_permission">Atorga el permís</string>
+    <string name="permission_required">Es requereix permís</string>
     <!-- Renaming -->
     <string name="rename_file">Canvia el nom del fitxer</string>
     <string name="rename_folder">Canvia el nom de la carpeta</string>
@@ -693,6 +701,7 @@
     <string name="show_the_recycle_bin">Mostra la paperera de reciclatge</string>
     <string name="hide_the_recycle_bin">Oculta la paperera de reciclatge</string>
     <string name="open_the_recycle_bin">Obre la paperera de reciclatge</string>
+    <string name="skip_the_recycle_bin">Omet la paperera de reciclatge, suprimeix directament els fitxers</string>
     <plurals name="moving_items_into_bin">
         <item quantity="one">S\'està movent %d element a la paperera de reciclatge</item>
         <item quantity="other">S\'estan movent %d elements a la paperera de reciclatge</item>
@@ -709,6 +718,17 @@
     <string name="no_entries_for_importing">No s\'ha trobat cap entrada per importar</string>
     <string name="no_new_entries_for_importing">No s\'ha trobat cap entrada nova per importar</string>
     <string name="no_entries_for_exporting">No s\'ha trobat cap entrada per exportar</string>
+    <string name="backups">Còpies de seguretat</string>
+    <string name="enable_automatic_backups">Activa les còpies de seguretat automàtiques</string>
+    <string name="manage_automatic_backups">Gestió de les còpies de seguretat automàtiques</string>
+    <string name="date_time_pattern_info">Podeu emprar els patrons següents per a donar nom automàticament als fitxers:
+\n
+\n%Y - any
+\n%M - mes
+\n%D - dia
+\n%h - hora
+\n%m - minut
+\n%s - segon</string>
     <!-- OTG devices -->
     <string name="usb">USB</string>
     <string name="usb_detected">Sembla que hi ha un dispositiu USB connectat al vostre dispositiu. Per assegurar que els fitxers apareguin adequadament, cal atorgar permisos addicionals.</string>
@@ -781,6 +801,16 @@
     <string name="more_info">Més informació</string>
     <string name="upgrade">Actualitza</string>
     <string name="upgrade_calendar">Cal migrar els esdeveniments emmagatzemats localment de manera manual mitjançant l\'exportació en un fitxer .ics, i després importar-los. Podeu trobar els dos botons d\'exportació/importació al menú de la pantalla principal.</string>
+    <string name="upgraded_from_free_gallery">Hola,
+\n
+\nsembla que acabeu d\'actualitzar a partir de la versió gratuïta. Un cop estigueu satisfet amb aquesta i potser hàgiu migrat la vostra configuració i els favorits, podeu desinstal·lar l\'antiga gratuïta per evitar que l\'inicieu accidentalment, ja que no la necessitareu.
+\n
+\nGràcies!</string>
+    <string name="upgraded_to_pro_gallery">Hola,
+\n
+\nsembla que ja teniu la versió Pro de l\'aplicació. Un cop estigueu satisfet amb ella i potser hàgiu migrat la vostra configuració i els favorits, podeu desinstal·lar-la per evitar que la inicieu accidentalment, ja que no la necessitareu.
+\n
+\nGràcies!</string>
     <string name="upgraded_from_free">Hola
 \n
 \nsembla que acabeu d\'actualitzar a partir de la versió gratuïta. Un cop estigueu satisfet amb aquesta i potser hàgiu migrat les vostres dades, podeu desinstal·lar l\'antiga gratuïta per evitar llançar-la accidentalment, ja que ja no la necessitareu més.
@@ -791,21 +821,21 @@
 \nsembla que ja teniu també la versió Pro de l\'aplicació. Un cop estigueu satisfet amb ella i potser hàgiu migrat les dades, podeu desinstal·lar-la per evitar que l\'inicieu accidentalment, ja que ja no la necessitareu.
 \n
 \nGràcies!</string>
-    <string name="upgraded_to_pro_calendar">Hola,
+    <string name="upgraded_from_free_calendar">Hola,
 \n
 \nsembla que acabeu d\'actualitzar a partir de la versió gratuïta. Si voleu migrar els esdeveniments emmagatzemats localment, heu de fer-ho manualment exportant-los a un fitxer .ics en la versió gratuïta de l\'aplicació i important-los aquí a través del menú superior.
 \n
 \nQuan estigueu satisfet amb la vostra configuració de la versió Pro, podeu desinstal·lar l\'antiga gratuïta perquè ja no la necessitareu.
 \n
 \nGràcies!</string>
-    <string name="upgraded_to_pro_contacts">Hola,
+    <string name="upgraded_from_free_contacts">Hola,
 \n
 \nsembla que acabeu d\'actualitzar a partir de la versió gratuïta. Si teníeu contactes emmagatzemats a «%s», cal migrar-los manualment exportant-los en un fitxer .vcf des de la versió gratuïta de l\'aplicació i important-los aquí a través del menú superior.
 \n
 \nQuan estigueu satisfet amb la vostra configuració de la versió Pro, podeu desinstal·lar l\'antiga gratuïta perquè ja no la necessitareu.
 \n
 \nGràcies!</string>
-    <string name="upgraded_to_pro_notes">Hola,
+    <string name="upgraded_from_free_notes">Hola,
 \n
 \nsembla que acabeu d\'actualitzar a partir de la versió gratuïta. Si voleu migrar les notes, cal fer-ho manualment exportant-les a un fitxer en la versió gratuïta de l\'aplicació i important-les aquí a través del menú superior.
 \n
