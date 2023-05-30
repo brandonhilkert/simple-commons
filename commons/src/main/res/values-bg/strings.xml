@@ -76,6 +76,7 @@
     <string name="updating">Обновяване…</string>
     <string name="phone_storage">Памет на устройството</string>
     <string name="phone_storage_hidden">Памет на устройството (без достъп от други приложения)</string>
+    <string name="audio">Audio</string>
     <!-- Events -->
     <string name="birthday">Рожден ден</string>
     <string name="anniversary">Годишнина</string>
@@ -158,8 +159,15 @@
     <string name="no_contacts_permission">Необходимо е разрешение за контакти</string>
     <string name="no_camera_permissions">Необходимо е разрешение за камера</string>
     <string name="no_audio_permissions">Необходимо е разрешение за аудио</string>
-    <string name="no_post_notifications_permissions">Permission to post notifications is required</string>
     <string name="no_permission">No permission</string>
+    <string name="allow_notifications_reminders">You must allow the app displaying notifications, else it cannot show reminders.</string>
+    <string name="allow_notifications_files">You must allow the app displaying notifications, else it cannot show the progress bar.</string>
+    <string name="allow_notifications_music_player">You must allow the app displaying notifications, else it cannot play songs.</string>
+    <string name="allow_notifications_voice_recorder">You must allow the app displaying notifications, else it cannot record audio.</string>
+    <string name="allow_notifications_incoming_calls">You must allow the app displaying notifications, else it cannot show incoming calls.</string>
+    <string name="allow_notifications_incoming_messages">You must allow the app displaying notifications, else it cannot show incoming messages.</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="permission_required">Permission Required</string>
     <!-- Renaming -->
     <string name="rename_file">Преименуване на файл</string>
     <string name="rename_folder">Преименуване на папка</string>
@@ -698,6 +706,7 @@
     <string name="show_the_recycle_bin">Покажете Кошчето</string>
     <string name="hide_the_recycle_bin">Скрийте Кошчето</string>
     <string name="open_the_recycle_bin">Open the Recycle Bin</string>
+    <string name="skip_the_recycle_bin">Skip the Recycle Bin, delete files directly</string>
     <plurals name="moving_items_into_bin">
         <item quantity="one">Преместване на %d елемент в Kошчето</item>
         <item quantity="other">Преместване на %d елементa в Kошчето</item>
@@ -714,6 +723,10 @@
     <string name="no_entries_for_importing">Не са намерени записи за импортиране</string>
     <string name="no_new_entries_for_importing">Не са намерени нови записи за експортиране</string>
     <string name="no_entries_for_exporting">Не са намерени записи за експортиране</string>
+    <string name="backups">Backups</string>
+    <string name="enable_automatic_backups">Enable automatic backups</string>
+    <string name="manage_automatic_backups">Manage automatic backups</string>
+    <string name="date_time_pattern_info">You can use the following patterns to name your file automatically:\n\n%Y - year\n%M - month\n%D - day\n%h - hour\n%m - minute\n%s - second</string>
     <!-- OTG devices -->
     <string name="usb">USB</string>
     <string name="usb_detected">Изглежда имате USB устройство, прикачено към вашето устройство. За да сте сигурни, че неговите файлове се появяват правилно, трябва да предоставите допълнителни разрешения.</string>
@@ -786,11 +799,13 @@
     <string name="more_info">Подробности</string>
     <string name="upgrade">Обновяване</string>
     <string name="upgrade_calendar">Трябва да мигрирате локално съхранените събития ръчно чрез експортиране в .ics файл, след което да импортирате. Можете да намерите и двата бутона за експортиране/импортиране в главното меню.</string>
+    <string name="upgraded_from_free_gallery">Hello,\n\nseems like you just upgraded from the free version. Once you are happy with this one and maybe migrated your settings and favorites over, you can uninstall the old free one to avoid launching it accidentally as you will not need it anymore.\n\nThanks!</string>
+    <string name="upgraded_to_pro_gallery">Hello,\n\nseems like you already have the Pro app version too. Once you are happy with it and maybe migrated your settings and favorites over, you can uninstall this one to avoid launching it accidentally as you will not need it anymore.\n\nThanks!</string>
     <string name="upgraded_from_free">Hello,\n\nseems like you just upgraded from the free version. Once you are happy with this one and maybe migrated your data over, you can uninstall the old free one to avoid launching it accidentally as you will not need it anymore.\n\nThanks!</string>
     <string name="upgraded_to_pro">Hello,\n\nseems like you already have the Pro app version too. Once you are happy with it and maybe migrated your data over, you can uninstall this one to avoid launching it accidentally as you will not need it anymore.\n\nThanks!</string>
-    <string name="upgraded_to_pro_calendar">Hello,\n\nseems like you just upgraded from the free version. If you want to migrate your locally stored events over, you have to do it manually by exporting them into an .ics file in the free app version and importing here through the top menu. \n\nOnce you are satisfied with your setup in the Pro version, you can uninstall the old free one as you won\'t need it anymore.\n\nThanks!</string>
-    <string name="upgraded_to_pro_contacts">Hello,\n\nseems like you just upgraded from the free version. If you had any contacts stored under \"%s\", you have to migrate them manually by exporting in a .vcf file from the free app version and importing here through the top menu.\n\nOnce you are satisfied with your setup in the Pro version, you can uninstall the old free one as you won\'t need it anymore.\n\nThanks!</string>
-    <string name="upgraded_to_pro_notes">Hello,\n\nseems like you just upgraded from the free version. If you want to migrate your notes over, you have to do it manually by exporting them into a file in the free app version and importing here through the top menu. \n\nOnce you are satisfied with your setup in the Pro version, you can uninstall the old free one as you won\'t need it anymore.\n\nThanks!</string>
+    <string name="upgraded_from_free_calendar">Hello,\n\nseems like you just upgraded from the free version. If you want to migrate your locally stored events over, you have to do it manually by exporting them into an .ics file in the free app version and importing here through the top menu. \n\nOnce you are satisfied with your setup in the Pro version, you can uninstall the old free one as you won\'t need it anymore.\n\nThanks!</string>
+    <string name="upgraded_from_free_contacts">Hello,\n\nseems like you just upgraded from the free version. If you had any contacts stored under \"%s\", you have to migrate them manually by exporting in a .vcf file from the free app version and importing here through the top menu.\n\nOnce you are satisfied with your setup in the Pro version, you can uninstall the old free one as you won\'t need it anymore.\n\nThanks!</string>
+    <string name="upgraded_from_free_notes">Hello,\n\nseems like you just upgraded from the free version. If you want to migrate your notes over, you have to do it manually by exporting them into a file in the free app version and importing here through the top menu. \n\nOnce you are satisfied with your setup in the Pro version, you can uninstall the old free one as you won\'t need it anymore.\n\nThanks!</string>
     <!-- About -->
     <string name="about">Относно</string>
     <string name="website">Уеб Страница</string>

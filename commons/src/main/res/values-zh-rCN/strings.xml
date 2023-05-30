@@ -75,6 +75,7 @@
     <string name="updating">更新中…</string>
     <string name="phone_storage">手机存储</string>
     <string name="phone_storage_hidden">手机空间 (其他程序不可见)</string>
+    <string name="audio">音频</string>
     <!-- Events -->
     <string name="birthday">生日</string>
     <string name="anniversary">纪念日</string>
@@ -156,8 +157,15 @@
     <string name="no_contacts_permission">请授予通讯录权限</string>
     <string name="no_camera_permissions">请授予相机权限</string>
     <string name="no_audio_permissions">请授予音频权限</string>
-    <string name="no_post_notifications_permissions">需要发送通知权限</string>
     <string name="no_permission">无权限</string>
+    <string name="allow_notifications_reminders">你必须允许应用展示通知，否则它无法显示提醒。</string>
+    <string name="allow_notifications_files">你必须允许应用展示通知，否则它无法显示进度条。</string>
+    <string name="allow_notifications_music_player">你必须允许应用展示通知，否则它无法播放歌曲。</string>
+    <string name="allow_notifications_voice_recorder">你必须允许应用展示通知，否则它无法录音。</string>
+    <string name="allow_notifications_incoming_calls">你必须允许应用展示通知，否则它无法显示来电。</string>
+    <string name="allow_notifications_incoming_messages">你必须允许应用展示通知，否则它无法显示消息。</string>
+    <string name="grant_permission">授予权限</string>
+    <string name="permission_required">权限是必需的</string>
     <!-- Renaming -->
     <string name="rename_file">重命名文件</string>
     <string name="rename_folder">重命名文件夹</string>
@@ -656,6 +664,7 @@
     <string name="show_the_recycle_bin">显示回收站</string>
     <string name="hide_the_recycle_bin">隐藏回收站</string>
     <string name="open_the_recycle_bin">打开回收站</string>
+    <string name="skip_the_recycle_bin">跳过回收站，直接删除文件</string>
     <plurals name="moving_items_into_bin">
         <item quantity="other">正在移动 %d 个项目到回收站</item>
     </plurals>
@@ -671,6 +680,17 @@
     <string name="no_entries_for_importing">未找到要导入的项目</string>
     <string name="no_new_entries_for_importing">没有发现用于导入的新条目</string>
     <string name="no_entries_for_exporting">未找到要导出的项目</string>
+    <string name="backups">备份</string>
+    <string name="enable_automatic_backups">启用自动备份</string>
+    <string name="manage_automatic_backups">管理自动备份</string>
+    <string name="date_time_pattern_info">你可以使用下列模式自动命名你的文件：
+\n
+\n%Y - 年份
+\n%M - 月份
+\n%D - 天
+\n%h - 小时
+\n%m - 分钟
+\n%s - 秒</string>
     <!-- OTG devices -->
     <string name="usb">USB</string>
     <string name="usb_detected">检测到有 USB 设备连接到您的设备。您需要授予额外的权限以确保文件能够正确显示。</string>
@@ -743,6 +763,16 @@
     <string name="more_info">更多信息</string>
     <string name="upgrade">升级</string>
     <string name="upgrade_calendar">您必须通过导出/导入.ics文件来自行转移本地存储的事件。您可以在主界面菜单中找到导出/导入选项。</string>
+    <string name="upgraded_from_free_gallery">嘿，
+\n
+\n你似乎刚从免费版升级过来。 如果你对专业版感到满意，而且已经迁移了设置和收藏等必要项目，你可以卸载旧的免费版以免意外启动，因你不再需要它。
+\n
+\n谢谢！</string>
+    <string name="upgraded_to_pro_gallery">嘿，
+\n
+\n你似乎也安装了这个应用的专业版。如果你用得满意而且已经迁移了设置和收藏等必要项目，你可以卸载免费版以免意外启动，因为你不再需要它。
+\n
+\n谢谢！</string>
     <string name="upgraded_from_free">嘿，
 \n
 \n你似乎刚从免费版升级过来。 如果你对收费版用得满意并且已经迁移了数据，你可以卸载旧的免费版避免意外启动，因为你不再需要它了。
@@ -753,21 +783,21 @@
 \n除了免费版，你似乎也已经安装了专业版。如果你觉得满意并且迁移了数据，你可以卸载免费版避免意外启动，因你不再需要它。
 \n
 \n谢谢！</string>
-    <string name="upgraded_to_pro_calendar">嘿，
+    <string name="upgraded_from_free_calendar">嘿，
 \n
 \n你似乎从免费版升级到了专业版。如果你想把免费版中本地存储的事件迁移过来，你必须手动在免费版中把它们导出为 .ics 文件，并通过顶部菜单导入到专业版中。
 \n
 \n如果你对专业版设置感到满意，你就可以卸载旧的免费版，因你不再需要它。
 \n
 \n谢谢！</string>
-    <string name="upgraded_to_pro_contacts">嘿，
+    <string name="upgraded_from_free_contacts">嘿，
 \n
 \n你似乎刚从免费版升级到了专业版。如果你有任何存储在 \"%s\" 下的联系人，你必须手动在免费版中把它们导出为 .vcf 文件，并通过顶部菜单导入到专业版中。
 \n
 \n如果你对专业版设置感到满意，你就可以卸载旧的免费版，因你不再需要它。
 \n
 \n谢谢！</string>
-    <string name="upgraded_to_pro_notes">嘿，
+    <string name="upgraded_from_free_notes">嘿，
 \n
 \n你似乎刚从免费版升级到了专业版。如果你想迁移笔记数据，你必须手动在免费版中把它们导出为文件，并通过顶部菜单导入到专业版中。
 \n
